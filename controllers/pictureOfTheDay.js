@@ -8,10 +8,8 @@ exports.findPicture = function(req, res) {
 	'highResolution': ''
 
   }).on('success', (payload)=>{
-    console.log("success");
     res.send(payload);
   }).on('error', (payload)=>{
-    console.log("what?");
     res.send("failure");
   });
 };
