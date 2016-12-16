@@ -1,0 +1,16 @@
+#picture {
+  width: 60%;
+  height: auto;
+}
+
+.pictureOfTheDay {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture-description {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
